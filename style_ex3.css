@@ -10,28 +10,25 @@ body {
     justify-content: space-between;  /*  Main axis */
     align-items: stretch;    /*  Cross axis */
     flex-wrap: wrap;
-    height: 320px;
+    height: 300px;
 }
 
 .flexcontainer > div {
-    margin: 2px;
-    
+    /* margin: 2px; */
+    height: 100px;
 }
 
 .red {
     background-color: red;
-    height: 50px;
 }
 
 .blue {
     background-color: blue;
-    height: 100px;
-    width: 80%;
-    align-self: center;
+    width: 20%;
+    align-self: flex-start;
 }
 
 .yellow {
     background-color: beige;
-    height: 50px;
 }
 
