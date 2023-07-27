@@ -6,7 +6,9 @@ body {
     background-color: aquamarine;
     padding: 2px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
 }
 
 .flexcontainer > div {
