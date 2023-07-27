@@ -1,34 +1,25 @@
-body {
-    background-color: aliceblue;
-}
-
 .flexcontainer {
+    display: flex;
     background-color: aquamarine;
-    padding: 2px;
-    display: flex;    /* Important to use flex */
-    flex-direction: column;        
-    justify-content: space-between;  /*  Main axis */
-    align-items: stretch;    /*  Cross axis */
-    flex-wrap: wrap;
-    height: 300px;
+    flex-direction: row;
 }
 
 .flexcontainer > div {
-    /* margin: 2px; */
     height: 100px;
+    text-align: center;
 }
 
-.red {
-    background-color: red;
-}
-
-.blue {
+.logo {
     background-color: blue;
-    width: 20%;
-    align-self: flex-start;
+    flex: 1;
 }
 
-.yellow {
-    background-color: beige;
+.team {
+    background-color: aqua;
+    flex: 4;
 }
 
+.products {
+    background-color: red;
+    flex: 4;
+}
