@@ -4,6 +4,13 @@ body {
 
 .flexcontainer {
     background-color: aquamarine;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexcontainer > div {
+    width: 200px;
 }
 
 .red {
