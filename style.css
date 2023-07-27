@@ -6,30 +6,29 @@ body {
     background-color: aquamarine;
     padding: 2px;
     display: flex;    /* Important to use flex */
-    flex-direction: row;        
-    justify-content: space-around;  /*  Main axis */
-    align-items: center;    /*  Cross axis */
+    flex-direction: column;        
+    justify-content: space-between;  /*  Main axis */
+    align-items: stretch;    /*  Cross axis */
     flex-wrap: wrap;
-    height: 200px;
+    height: 300px;
 }
 
 .flexcontainer > div {
-    width: 200px;
-    /* height: 100px; */
+    /* margin: 2px; */
+    height: 100px;
 }
 
 .red {
     background-color: red;
-    flex: 3
 }
 
 .blue {
     background-color: blue;
-    flex: 2;
+    width: 20%;
+    align-self: flex-end;
 }
 
 .yellow {
     background-color: beige;
-    flex: 4
 }
 
