@@ -7,7 +7,7 @@ body {
     padding: 2px;
     display: flex;    /* Important to use flex */
     flex-direction: column;        
-    justify-content: space-between;  /*  Main axis */
+    justify-content: stretch;  /*  Main axis */
     align-items: stretch;    /*  Cross axis */
     flex-wrap: wrap;
     height: 320px;
@@ -15,23 +15,19 @@ body {
 
 .flexcontainer > div {
     margin: 2px;
-    
+    height: 100px;
 }
 
 .red {
     background-color: red;
-    height: 50px;
 }
 
 .blue {
     background-color: blue;
-    height: 100px;
-    width: 80%;
-    align-self: center;
+    align-self: flex-end;
 }
 
 .yellow {
     background-color: beige;
-    height: 50px;
 }
 
