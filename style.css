@@ -5,24 +5,28 @@ body {
 .flexcontainer {
     background-color: aquamarine;
     padding: 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: flex;    /* Important to use flex */
+    flex-direction: row;        
+    justify-content: space-around;  /*  Main axis */
+    align-items: center;    /*  Cross axis */
+    flex-wrap: wrap;
     height: 200px;
 }
 
 .flexcontainer > div {
     width: 200px;
+    /* height: 100px; */
 }
 
 .red {
     background-color: red;
 }
 
+.blue {
+    background-color: blue;
+}
+
 .yellow {
     background-color: beige;
 }
 
-.blue {
-    background-color: blue;
-}
